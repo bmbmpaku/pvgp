@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { ReactNode } from "react";
 import "./globals.css";
 import Link from "next/link";
-import NavBar from "@/app/components/navbar";
+import NavBar from "../app/components/navbar";
 import {
   ClerkProvider,
   SignInButton,

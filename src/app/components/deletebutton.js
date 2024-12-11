@@ -1,6 +1,6 @@
 // "use client";
 import React from "react";
-import { db } from "@/utils/db";
+import { db } from "../../utils/db";
 
 export default function DeleteButton({ voiceId, refreshData }) {
   const handleDelete = async () => {
