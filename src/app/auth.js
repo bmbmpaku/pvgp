@@ -1,5 +1,3 @@
-// auth.js
-
 import { getAuth } from "@clerk/nextjs/server";
 
 // Middleware to verify the user

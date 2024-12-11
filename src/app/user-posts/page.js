@@ -12,7 +12,7 @@ export default async function UserPosts() {
     const comments = response.rows;
 
     console.log("DB Responsive");
-    console.log(voices);
+    // console.log(voices);
 
     return (
       <div className="bg-white shadow-md rounded-lg p-6 mb-4 hover:shadow-lg transition max-h-50">

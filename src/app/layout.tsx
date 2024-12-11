@@ -35,28 +35,6 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
                 </h1>
               </div>
               <NavBar />
-              {/* <nav className="hidden sm:flex space-x-6">
-                <Link
-                  href="/"
-                  className="text-gray-600 hover:text-gray-900 font-medium active:text-blue-600"
-                >
-                  Home
-                </Link>
-                <Link
-                  href="/category/"
-                  className="text-gray-600 hover:text-gray-900 font-medium active:text-blue-600"
-                >
-                  Categories
-                </Link>
-                <Link
-                  href="/user-posts"
-                  className="text-gray-600 hover:text-gray-900 font-medium active:text-blue-600"
-                >
-                  Voices
-                </Link>
-                {/* <Link href="/UserAccount">MyAccount</Link> */}
-              {/* </nav> */}
-              {/* User Menu */}
             </div>
           </header>
           <SignedOut>
