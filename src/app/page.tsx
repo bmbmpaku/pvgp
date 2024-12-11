@@ -19,7 +19,7 @@
 //   );
 // }
 
-import middleware from "./middleware";
+import middleware from "@/middleware";
 import Image from "next/image";
 import UserPosts from "./user-posts/page";
 import PostVoices from "./components/postvoices";

@@ -2,6 +2,7 @@ import pg from "pg";
 import { db } from "@/utils/db";
 import { redirect } from "next/navigation";
 import DeleteButton from "../components/deletebutton";
+import AmpButtons from "../components/AmpButtons";
 
 export default async function UserPosts() {
   try {
@@ -38,6 +39,7 @@ export default async function UserPosts() {
                 </p>
               </div>
               <DeleteButton key={voice.voice_id} voice_id />
+              <AmpButtons key={voice.voice_id} voice_id />
 
               {/* Comments for the Voice */}
               <details className="group">
