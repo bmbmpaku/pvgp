@@ -17,27 +17,6 @@ export default function DeleteButton({ voiceId, refreshData }) {
     }
   };
 
-  //   const handleDelete = async () => {
-  //     try {
-  //       const response = await fetch("/api/deletePost.js", {
-  //         method: "DELETE",
-  //         headers: {
-  //           "Content-Type": "application/json",
-  //         },
-  //         body: JSON.stringify({ voiceId }),
-  //       });
-
-  //       if (response.ok) {
-  //         console.log(`Post with ID ${voiceId} deleted successfully.`);
-  //         if (refreshData) refreshData();
-  //       } else {
-  //         console.error("Failed to delete the post");
-  //       }
-  //     } catch (error) {
-  //       console.error("Error deleting post:", error);
-  //     }
-  //   };
-
   return (
     <button
       action={handleDelete()}

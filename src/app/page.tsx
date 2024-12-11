@@ -23,7 +23,7 @@ import middleware from "../middleware";
 import Image from "next/image";
 import UserPosts from "./user-posts/page";
 import PostVoices from "./components/postvoices";
-import Herocard from "./components/herocard";
+import Herocard from "./components/voiceoftheday";
 import Link from "next/link";
 import { SignedIn, SignedOut } from "@clerk/nextjs";
 import { auth } from "@clerk/nextjs/server";
