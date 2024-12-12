@@ -2,7 +2,7 @@ import pg from "pg";
 import { db } from "../../utils/db";
 import { redirect } from "next/navigation";
 import DeleteButton from "../components/deletebutton";
-// import AmpButtons from "../components/AmpButtons";
+import AmpButtons from "../components/AmpButtons";
 
 export default async function UserPosts() {
   try {
@@ -38,8 +38,11 @@ export default async function UserPosts() {
                   Location: {voice.location}
                 </p>
               </div>
-              <DeleteButton key={voice.voice_id} voice_id />
-              {/* <AmpButtons /> */}
+              <div className="flex justify-between items-right">
+                <DeleteButton key={voice.voice_id} />
+                <AmpButtons key={voice.voice_id} />
+                {/* <AmpButtons /> */}
+              </div>
 
               {/* Comments for the Voice */}
               <details className="group">
