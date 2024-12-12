@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React, { ReactNode } from "react";
+import SideMenu from "../app/components/sidemenu";
 import "./globals.css";
 import Link from "next/link";
 import NavBar from "../app/components/navbar";
@@ -10,6 +11,7 @@ import {
   SignedOut,
   UserButton,
 } from "@clerk/nextjs";
+import Home from "./page";
 
 interface RootLayoutProps {
   children: ReactNode;
@@ -34,7 +36,15 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
                   Parking Voices
                 </h1>
               </div>
-              <NavBar />
+              <div>
+                <NavBar />
+              </div>
+              <div>
+                <SignedIn>
+                  <UserButton className="w-10 h-10 bg-gray-300 rounded-full flex items-center justify-center text-white" />
+                  <SideMenu className="w-10 h-10 bg-gray-300 rounded-full flex items-center justify-center text-white"></SideMenu>
+                </SignedIn>
+              </div>
             </div>
           </header>
           <SignedOut>
