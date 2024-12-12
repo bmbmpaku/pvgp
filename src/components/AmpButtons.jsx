@@ -2,12 +2,7 @@
 
 import { useFormStatus } from "react-dom";
 import clsx from "clsx";
-import {
-  TbArrowBigDown,
-  TbArrowBigDownFilled,
-  TbArrowBigUp,
-  TbArrowBigUpFilled,
-} from "react-icons/tb";
+import { TbArrowBigUp, TbArrowBigUpFilled } from "react-icons/tb";
 import { MdCampaign } from "react-icons/md";
 import { FaCloudversify } from "react-icons/fa6";
 import { FaSpinner } from "react-icons/fa";

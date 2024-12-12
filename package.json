@@ -12,6 +12,8 @@
   "dependencies": {
     "@clerk/clerk-sdk-node": "^5.1.0",
     "@clerk/nextjs": "^6.5.1",
+    "@radix-ui/primitive": "^1.1.0",
+    "@radix-ui/react-alert-dialog": "^1.1.2",
     "autoprefixer": "^10.4.20",
     "clsx": "^2.1.1",
     "cors": "^2.8.5",

@@ -1,5 +1,5 @@
 "use server";
-import { db } from "../../utils/db";
+import { db } from "../utils/db";
 
 export async function handlePostVoices(formData, username) {
   const content = formData.get("content");

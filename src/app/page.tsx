@@ -1,8 +1,8 @@
 import middleware from "../middleware";
 import Image from "next/image";
 import UserPosts from "./user-posts/page";
-import PostVoicesClient from "./components/PostVoicesClient";
-import Herocard from "./components/voiceoftheday";
+import PostVoicesClient from "../components/PostVoicesClient";
+import Herocard from "../components/voiceoftheday";
 import Link from "next/link";
 import {
   ClerkLoading,

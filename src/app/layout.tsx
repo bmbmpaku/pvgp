@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React, { ReactNode } from "react";
-import SideMenu from "../app/components/sidemenu";
+import SideMenu from "../components/sidemenu";
 import "./globals.css";
 import Link from "next/link";
-import NavBar from "../app/components/navbar";
+import NavBar from "../components/navbar";
 import {
   ClerkProvider,
   SignInButton,
