@@ -3,6 +3,7 @@ import { db } from "../../utils/db";
 import { redirect } from "next/navigation";
 import DeleteButton from "../../components/deletebutton";
 import AmpButtons from "../../components/AmpButtons";
+import { deleteVoice } from "../../actions/deleteVoice";
 
 export default async function UserPosts() {
   try {
@@ -39,7 +40,7 @@ export default async function UserPosts() {
                 </p>
               </div>
               <div className="flex justify-between right">
-                <DeleteButton voiceId={voice.voice_id} />
+                <DeleteButton key={voice.voice_id} voiceId={voice.voice_id} />
                 <AmpButtons voiceId={voice.voice_id} />
                 {/* <AmpButtons /> */}
               </div>

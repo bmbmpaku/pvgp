@@ -18,7 +18,7 @@ export default async function NavBar(toggleMenu) {
   return (
     <div>
       <nav>
-        <div className="hidden sm:hidden md:block sm:flex space-x-6">
+        <div className="hidden sm:hidden md:block sm:flex flex-r h-10 space-x-6">
           <Link
             href="/"
             className="text-gray-600 hover:text-gray-900 font-medium active:text-blue-600"

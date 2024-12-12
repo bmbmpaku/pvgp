@@ -1,7 +1,7 @@
 "use client";
 
 import { saveComment } from "@/actions/comments";
-import { useSession } from "next-auth/react";
+import { useSession } from "@clerk/nextjs";
 import { useEffect, useState } from "react";
 import { useFormState } from "react-dom";
 import { CommentFormButton } from "./CommentFormButton";
